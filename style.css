@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 1000px;
+}
+
+/* Fixed background image */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Fixed navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.small {
+  height: 40px;
+  background-color: #f09e07;
+}
+
+.bigger {
+  height: 80px;
+  background-color: white;
+}
+
+.logo {
+  width: 400px;
+  height: 200px;
+  margin-top: -60px;
+}
+
+/* Scrollable centered message */
+.text {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 250px;
+    font-size: 30px;
+}
+
+.text span {
+    color: white;
+    font-size: 40px;
+    margin-top: 5px;
+}
