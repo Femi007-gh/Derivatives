@@ -5,6 +5,7 @@
   height: 800px;
 }
 
+/* Fixed background image */
 .background {
   position: fixed;
   top: 0;
@@ -14,6 +15,7 @@
   object-fit: cover;
   z-index: -1;
 }
+
 
 .navbar {
   position: fixed;
@@ -37,6 +39,7 @@
   height: 200px;
   margin-top: -60px;
 }
+
 
 .text {
     color: white;
